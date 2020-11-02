@@ -1,0 +1,13 @@
+
+@media all and (max-width:411px){
+    .schedule {
+        flex-direction: column;
+        width: 90px;
+    }
+
+    .sub-menu {
+        top: 0;
+        left: 100%;
+        margin: 0;
+    }
+}

@@ -1,0 +1,36 @@
+.schedule{display: flex;
+    flex-direction: row;
+    
+}
+
+.sub-menu {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 1s linear;  
+    padding: 0;
+    margin: 6px 0; 
+
+}
+.sub-menu li{
+border-style: solid;
+border-color: gray;
+background: rgb(230, 228, 228);
+color: gray;
+}
+
+.menu-item{
+border-style: solid;
+border-color: gray;
+background: rgb(230, 228, 228);
+padding: 0.1em;
+color: gray;
+position: relative;
+}
+.menu-item:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+   
+
+}
+
+
